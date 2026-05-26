@@ -1,0 +1,10 @@
+Prueba de rutas en el navegador:
+
+1. http://localhost:3000
+   Resultado: Muestra "Servidor activo" en la página. Es la ruta principal, como la puerta de entrada.
+
+2. http://localhost:3000/saludo
+   Resultado: Muestra "Hola comunidad". Es una ruta específica para saludar a todos.
+
+3. http://localhost:3000/mensaje/juan
+   Resultado: Muestra "Hola juan". El servidor toma el nombre que escribí después de /mensaje/ y lo usa en la respuesta. Si cambio "juan" por "maria", diría "Hola maria".

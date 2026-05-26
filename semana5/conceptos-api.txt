@@ -1,0 +1,5 @@
+¿Qué hace la ruta POST /reporte?
+Esta ruta no se abre en el navegador como las otras. En cambio, "escucha" cuando alguien le envía datos (como un formulario). Cuando recibe un mensaje, lo guarda temporalmente y responde con un JSON que confirma: "Reporte recibido" + el mensaje que enviaron.
+
+¿Para qué podría servir en una aplicación comunitaria?
+Podría usarse para que las personas reporten problemas del barrio (como un bache, una luz dañada o una actividad sospechosa) sin tener que llamar por teléfono. La app envía el reporte con POST, el servidor lo recibe y puede guardarlo o reenviarlo a quien corresponda. Así, la comunidad se organiza de forma digital, rápida y ordenada.
